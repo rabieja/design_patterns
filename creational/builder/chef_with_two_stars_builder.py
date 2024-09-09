@@ -1,16 +1,16 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sat Sep  7 18:18:49 2024
+Created on Sat Sep  7 18:18:48 2024
 
 @author: Agnieszka Rabiej
 """
 
-from builder.chef_builder import ChefBuilder
-from builder.menu import Menu
+from creational.builder.chef_builder import ChefBuilder
+from creational.builder.menu import Menu
 
-class ChefWithOneStarBuilder(ChefBuilder):
+class ChefWithTwoStarsBuilder(ChefBuilder):
 
-    price = 100
+    price = 200
     
     def __init__(self):
         self.menu = Menu()
@@ -25,9 +25,9 @@ class ChefWithOneStarBuilder(ChefBuilder):
         self.menu.dessert = dessert
     
     def get_price(self):
-        full_price = 0
-        for i_dish in (self.menu.soup, self.menu.main_course, self.menu.dessert):
-            full_price += self.price if i_dish else 0
+        full_price = self.price * 0.6 if self.menu.soup else 0
+        full_price += self.price if self.menu.main_course else 0
+        full_price += self.price * 0.7 if self.menu.dessert else 0
         return full_price
     
     def get_menu(self):

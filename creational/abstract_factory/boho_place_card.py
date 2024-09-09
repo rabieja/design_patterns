@@ -5,7 +5,7 @@ Created on Sat Sep  7 11:11:59 2024
 @author: Agnieszka Rabiej
 """
 
-from abstract_factory.place_card import PlaceCard
+from creational.abstract_factory.place_card import PlaceCard
 
 class BohoPlaceCard(PlaceCard):
     

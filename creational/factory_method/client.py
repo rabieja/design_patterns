@@ -4,9 +4,9 @@ Created on Sat Sep  7 15:39:33 2024
 
 @author: Agnieszka Rabiej
 """
-from factory_method.creator import Creator
-from factory_method.node_creator import NodeCreator
-from factory_method.edge_creator import EdgeCreator
+from creational.factory_method.creator import Creator
+from creational.factory_method.node_creator import NodeCreator
+from creational.factory_method.edge_creator import EdgeCreator
 
 class FactoryMethodClient:
     

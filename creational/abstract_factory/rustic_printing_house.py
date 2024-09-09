@@ -5,10 +5,10 @@ Created on Sat Sep  7 11:22:03 2024
 @author: Agnieszka Rabiej
 """
 
-from abstract_factory.printing_house import PrintingHouse
-from abstract_factory.rustic_invitation import RusticInvitation
-from abstract_factory.rustic_place_card import RusticPlaceCard
-from abstract_factory.rustic_guest_book import RusticGuestBook
+from creational.abstract_factory.printing_house import PrintingHouse
+from creational.abstract_factory.rustic_invitation import RusticInvitation
+from creational.abstract_factory.rustic_place_card import RusticPlaceCard
+from creational.abstract_factory.rustic_guest_book import RusticGuestBook
 
 class RusticPrintingHouse(PrintingHouse):
     

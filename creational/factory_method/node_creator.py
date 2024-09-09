@@ -5,8 +5,8 @@ Created on Sat Sep  7 15:33:26 2024
 @author: Agnieszka Rabiej
 """
 
-from factory_method.creator import Creator
-from factory_method.node import Node
+from creational.factory_method.creator import Creator
+from creational.factory_method.node import Node
 
 class NodeCreator(Creator):
     

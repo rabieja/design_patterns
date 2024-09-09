@@ -5,7 +5,7 @@ Created on Sun Sep  8 10:50:58 2024
 @author: Agnieszka Rabiej
 """
 
-from prototype.prototype import Prototype
+from creational.prototype.prototype import Prototype
 
 class ClassSchedule(Prototype):
     

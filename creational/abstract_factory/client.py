@@ -5,8 +5,8 @@ Created on Sat Sep  7 11:35:53 2024
 @author: Agnieszka Rabiej
 """
 
-from abstract_factory.rustic_printing_house import RusticPrintingHouse
-from abstract_factory.boho_printing_house import BohoPrintingHouse
+from creational.abstract_factory.rustic_printing_house import RusticPrintingHouse
+from creational.abstract_factory.boho_printing_house import BohoPrintingHouse
 
 class AbstractFactoryClient:
     

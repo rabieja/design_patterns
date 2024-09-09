@@ -4,8 +4,8 @@ Created on Fri Sep  6 18:34:16 2024
 
 @author: Agnieszka Rabiej
 """
-from singleton.user import User
-from singleton.admin import Admin
+from creational.singleton.user import User
+from creational.singleton.admin import Admin
 
 class SingletonTest:
 

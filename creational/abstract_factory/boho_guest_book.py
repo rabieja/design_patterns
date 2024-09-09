@@ -6,7 +6,7 @@ Created on Sat Sep  7 11:12:00 2024
 """
 
 
-from abstract_factory.guest_book import GuestBook
+from creational.abstract_factory.guest_book import GuestBook
 
 class BohoGuestBook(GuestBook):
     

@@ -5,7 +5,7 @@ Created on Sat Sep  7 15:33:23 2024
 @author: Agnieszka Rabiej
 """
 
-from factory_method.graph_element import GraphElement
+from creational.factory_method.graph_element import GraphElement
 
 class Edge(GraphElement):
     

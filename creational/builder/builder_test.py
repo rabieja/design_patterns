@@ -5,9 +5,9 @@ Created on Sat Sep  7 18:17:42 2024
 @author: Agnieszka Rabiej
 """
 
-from builder.chef_with_one_star_builder import ChefWithOneStarBuilder
-from builder.chef_with_two_stars_builder import ChefWithTwoStarsBuilder
-from builder.director import Director
+from creational.builder.chef_with_one_star_builder import ChefWithOneStarBuilder
+from creational.builder.chef_with_two_stars_builder import ChefWithTwoStarsBuilder
+from creational.builder.director import Director
 
 class BuilderTest:
     

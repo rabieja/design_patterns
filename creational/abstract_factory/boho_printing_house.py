@@ -5,10 +5,10 @@ Created on Sat Sep  7 11:27:58 2024
 @author: Agnieszka Rabiej
 """
 
-from abstract_factory.printing_house import PrintingHouse
-from abstract_factory.boho_invitation import BohoInvitation
-from abstract_factory.boho_place_card import BohoPlaceCard
-from abstract_factory.boho_guest_book import BohoGuestBook
+from creational.abstract_factory.printing_house import PrintingHouse
+from creational.abstract_factory.boho_invitation import BohoInvitation
+from creational.abstract_factory.boho_place_card import BohoPlaceCard
+from creational.abstract_factory.boho_guest_book import BohoGuestBook
 
 class BohoPrintingHouse(PrintingHouse):
     
